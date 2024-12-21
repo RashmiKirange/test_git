@@ -1,0 +1,97 @@
+{
+    "algorithm_type": "classifier",
+    "class_names": [
+        "reshaped_data1",
+        "reshaped_data2"
+    ],
+    "commit": "cbfa945e",
+    "compilation_date": "2024-09-17T17:11:38.166735",
+    "compilation_flags": {
+        "float_abi": "hard",
+        "fshort_enums": true,
+        "short_wchar": false
+    },
+    "compilation_str": "{'compilation_dict':{'request_type':'library','api':{'env':'PROD','version':'v3'},'version':{'web_api':{'env':'PROD','version':'v3'},'local_api':{'version':'2024.06.20.0','platform':'win64'},'studio':'4.5.0'},'compilation_flags':{'float_abi':'hard','short_wchar':false,'fshort_enums':true,'use_knowledge':false},'mcu':'cortex-m4_st_stm32f4_nucleo-f446re','sensor':'multiGeneric','request_origin':'manual','algorithm_type':'classifier','lib_version':'v2_cbfa945','info':{'progression':{'evals_done':200000,'optimization_progress':1.0,'elapsed_time':1527,'cpu_info':{'cpu_nb_cores':8,'cpu_nb_cores_for_optimization':4},'state':'finished'},'max_ram':32000,'max_flash':128000,'optimization_global_id':'cbef82e759091f36977bcb6f271601e7'},'class_names':'reshaped_data1,reshaped_data2','results':[{'result_id':65,'combination':[0,0,[13,14,12,11,16,17,15,18,5,6,2,1,4,24,20,3,25,21,0,19,9,10,22,8,7,23,26],27,0,100,25,8,8,4,5,0,10,3,1,2,0,3,1000.0,500.0,0.0,0,0,0,1,0],'performance':{'performance':{'score':0.9999,'precision':1.0,'precision_confidence_interval':[0.6561,1.0]},'memory_usage':{'estimated_ram':489,'estimated_flash':592,'estimated_flash_knowledge':null}},'learning_min_lines':null}],'data':{'nb_cols':25,'nb_lines':[[{'file_type':'class','nb_lines':17},{'file_type':'class','nb_lines':20}]]},'only_emulators':false,'lock_type':100},'sign':47307,'license_key':'***'}",
+    "compile_emulators": true,
+    "compile_library": true,
+    "data": {
+        "nb_cols": 25,
+        "nb_lines": [
+            [
+                {
+                    "file_type": "class",
+                    "nb_lines": 17
+                },
+                {
+                    "file_type": "class",
+                    "nb_lines": 20
+                }
+            ]
+        ]
+    },
+    "gcc_version": "arm-none-eabi-gcc (Arm GNU Toolchain 13.2.rel1 (Build arm-13.7)) 13.2.1 20231009",
+    "learning_min_lines": null,
+    "lib_limited": false,
+    "library_id": "66e9b84bfd258629b0e735d6",
+    "library_md5sum": "98fb62161a7b2b3ba9718ac6adc3d686",
+    "mcu": "cortex-m4_st_stm32f4_nucleo-f446re",
+    "mcu_cpn": "NUCLEO-F446RE",
+    "mcu_display_name": "NUCLEO-F446RE - STMicroelectronics",
+    "mcu_family": "STM32F4 Series",
+    "mcu_group": "demo",
+    "mcu_type": "cortex-m4",
+    "mcu_vendor": "STMicroelectronics",
+    "memory_usage": {
+        "flash": 1629,
+        "ram": 485
+    },
+    "optimization_info": {
+        "max_flash": 128000,
+        "max_ram": 32000,
+        "optimization_global_id": "cbef82e759091f36977bcb6f271601e7",
+        "progression": {
+            "cpu_info": {
+                "cpu_nb_cores": 8,
+                "cpu_nb_cores_for_optimization": 4
+            },
+            "elapsed_time": 1527,
+            "evals_done": 200000,
+            "optimization_progress": 1.0,
+            "state": "finished"
+        }
+    },
+    "performance": {
+        "memory_usage": {
+            "estimated_flash": 592,
+            "estimated_flash_knowledge": null,
+            "estimated_ram": 489
+        },
+        "performance": {
+            "precision": 1.0,
+            "precision_confidence_interval": [
+                0.6561,
+                1.0
+            ],
+            "score": 0.9999
+        }
+    },
+    "request_type": "library",
+    "sensor": "multiGeneric",
+    "studio_info": {
+        "local_api": {
+            "platform": "win64",
+            "version": "2024.06.20.0"
+        },
+        "studio": "4.5.0",
+        "web_api": {
+            "env": "PROD",
+            "version": "v3"
+        }
+    },
+    "user_info": {
+        "company": "Pccoe",
+        "email": "kirangerashmi@gmail.com",
+        "first_name": "Rashmi",
+        "last_name": "Kirange"
+    }
+}
